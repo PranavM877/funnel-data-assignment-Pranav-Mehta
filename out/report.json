@@ -1,0 +1,108 @@
+{
+    "funnel": [
+        {
+            "step": "Loaded",
+            "users": 72,
+            "conv_from_prev_pct": 100.0,
+            "conv_from_start_pct": 100.0,
+            "device": "desktop"
+        },
+        {
+            "step": "Interact",
+            "users": 40,
+            "conv_from_prev_pct": 55.56,
+            "conv_from_start_pct": 55.56,
+            "device": "desktop"
+        },
+        {
+            "step": "Clicks",
+            "users": 20,
+            "conv_from_prev_pct": 50.0,
+            "conv_from_start_pct": 27.78,
+            "device": "desktop"
+        },
+        {
+            "step": "Purchase",
+            "users": 6,
+            "conv_from_prev_pct": 30.0,
+            "conv_from_start_pct": 8.33,
+            "device": "desktop"
+        },
+        {
+            "step": "Loaded",
+            "users": 68,
+            "conv_from_prev_pct": 100.0,
+            "conv_from_start_pct": 100.0,
+            "device": "mobile"
+        },
+        {
+            "step": "Interact",
+            "users": 47,
+            "conv_from_prev_pct": 69.12,
+            "conv_from_start_pct": 69.12,
+            "device": "mobile"
+        },
+        {
+            "step": "Clicks",
+            "users": 25,
+            "conv_from_prev_pct": 53.19,
+            "conv_from_start_pct": 36.76,
+            "device": "mobile"
+        },
+        {
+            "step": "Purchase",
+            "users": 9,
+            "conv_from_prev_pct": 36.0,
+            "conv_from_start_pct": 13.24,
+            "device": "mobile"
+        }
+    ],
+    "intents": [
+        {
+            "intent": "product_search",
+            "count": 125,
+            "pct_of_total": 35.51
+        },
+        {
+            "intent": "product_comparison",
+            "count": 49,
+            "pct_of_total": 13.92
+        },
+        {
+            "intent": "faq",
+            "count": 44,
+            "pct_of_total": 12.5
+        },
+        {
+            "intent": "product_details",
+            "count": 44,
+            "pct_of_total": 12.5
+        },
+        {
+            "intent": "track_order",
+            "count": 35,
+            "pct_of_total": 9.94
+        },
+        {
+            "intent": "brand_question",
+            "count": 26,
+            "pct_of_total": 7.39
+        },
+        {
+            "intent": "unknown",
+            "count": 18,
+            "pct_of_total": 5.11
+        },
+        {
+            "intent": "email_verification",
+            "count": 11,
+            "pct_of_total": 3.12
+        }
+    ],
+    "cancellation_sla": {
+        "total_orders": 15,
+        "canceled": 2,
+        "violations": 1,
+        "violation_rate_pct": 50.0
+    }
+}
